@@ -193,6 +193,27 @@ p {
 
 /* ==== LINKS ==== */
 
+/* General Links */
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: #3c6078;
+}
+
+a:visited {
+  color: #98bddc;
+}
+
+a:hover {
+  color: #cadbee;
+}
+
+a:active {
+  color: #3581b8;
+}
+
 /* Nav Links */
 #nav a {
   display: inline;
@@ -213,27 +234,6 @@ p {
 }
 
 #nav a:active {
-  color: #3581b8;
-}
-
-/* General Links */
-a {
-  text-decoration: none;
-}
-
-a:link {
-  color: #3c6078;
-}
-
-a:visited {
-  color: #98bddc;
-}
-
-a:hover {
-  color: #cadbee;
-}
-
-a:active {
   color: #3581b8;
 }
 
