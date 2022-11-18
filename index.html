@@ -23,21 +23,20 @@
   <body>
     <header id="header">
       <nav id="nav">
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <!-- <li class="spacer"></li> UNCOMMENT FOR WEB-->
-          <!--<li><img class="emblem" src="#" alt="emblem shrunk to nav" /></li> -->
-          <li><a href="#resume">Résumé</a></li>
-          <li><a href="#projects">Projects</a></li>
-        </ul>
-        <a
-          href="javascript:void(0);"
-          class="hamburger-menu"
-          onclick="expandMenu()"
-        >
-          <i class="fa-solid fa-bars"></i>
-        </a>
+        <div class="menu-toggle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+          <ul id="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <!-- <li class="spacer"></li> UNCOMMENT FOR WEB-->
+            <!--<li><img class="emblem" src="#" alt="emblem shrunk to nav" /></li> -->
+            <li><a href="#resume">Résumé</a></li>
+            <li><a href="#projects">Projects</a></li>
+          </ul>
+        </div>
       </nav>
     </header>
     <!--HOME-->
@@ -78,12 +77,12 @@
           alt="Headshot profile photo of Kee-Fung Anthony Ho"
         />
         <p>
-          I am a Toronto-based full-stack developer that transitioned from
-          reading lines of legislation to reading lines of code. My experience
-          providing legal services complemented by the years of vigorous
-          training as a political scientist contributes to my robust
-          interpersonal skills and provides for a unique and versatile approach
-          in analyzing and generating durable solutions to problems. My
+          I am a full-stack developer that transitioned from reading lines of
+          legislation to reading lines of code. My experience providing legal
+          services complemented by the years of vigorous training as a political
+          scientist contributes to my robust interpersonal skills and provides
+          for a unique and versatile approach in analyzing and generating
+          durable solutions to problems. I hold a Bachelor of Social My
           pasttimes include fitness, board games, video games, exploring new
           restaurants, politics, law, linguistics, history, and keeping
           up-to-date with current affairs and mobile technology advancements.
@@ -123,8 +122,8 @@
         <p class="project-description">
           A text adventure game following an original and fictional Star Wars
           character. The game is built with JavaScript. The story will be
-          continuously updated when and if time permits. This was a project
-          built in 2022 during the Web Development programme at Humber College.
+          continuously updated when and if time permits. This project was built
+          in 2022 during the Web Development programme at Humber College.
         </p>
         <a href="https://github.com/Sonnto/tales-of-kinis-sonnto.git"
           ><i class="fa-brands fa-square-github"></i
