@@ -45,8 +45,8 @@ p {
   position: relative;
   /* top: 1em; */
   /* left: 1em; */
-  padding-left: 16px;
-  padding-top: 16px;
+  padding-left: 24px;
+  padding-top: 24px;
   z-index: 1;
   -webkit-user-select: none;
   user-select: none;
@@ -64,11 +64,11 @@ p {
 
 #menu-toggle input {
   display: block;
-  width: 2em;
-  height: 2em;
+  width: 36px;
+  height: 36px;
   position: absolute;
-  top: 11px;
-  left: 16px;
+  top: 16px;
+  left: 20px;
   cursor: pointer;
   opacity: 0; /* hides input check */
   z-index: 2; /* placed over hamburger */
@@ -82,7 +82,7 @@ p {
   height: 4px;
   margin-bottom: 5px;
   position: relative;
-  border-radius: 3px;
+  border-radius: 4px;
   z-index: 1;
   background: #423e37;
   transform-origin: 4px 0px;
@@ -118,7 +118,7 @@ p {
 #menu {
   position: absolute;
   width: 155px;
-  margin: -100px 0 0 -20px;
+  margin: -100px 0 0 -28px;
   padding: 24px 24px 0 24px;
   padding-top: 100px;
   background: #423e37;
@@ -181,19 +181,23 @@ p {
 
 .my-title {
   font-size: 3em;
-  margin: 0;
+  margin: 4px 16px 4px 16px;
+}
+
+.subtext {
+  margin: 0 16px, 0, 16px;
 }
 
 .subtext p {
   font-size: 1.75em;
-  line-height: 0.25em;
+  line-height: 8px;
 }
 
 .social-icons {
   font-size: 3em;
   display: flex;
   justify-content: center;
-  gap: 0.75em;
+  gap: 36px;
 }
 
 /* ==== ABOUT ==== */
@@ -203,10 +207,10 @@ p {
 }
 
 .profile-pic {
-  width: 150px; /* 9.375em */
-  height: 150px; /* 9.375em */
+  width: 160px; /* 10em */
+  height: 160px; /* 10em */
   overflow: hidden;
-  border: 0.5px solid rgba(66, 62, 55, 0.5);
+  border: 1px solid rgba(66, 62, 55, 0.5);
   border-radius: 40px;
 }
 
@@ -233,6 +237,7 @@ p {
   flex-flow: column wrap;
   text-align: center;
   gap: 1.5em;
+  margin: 0em 1.5em 1.5em 1.5em;
 }
 
 #projects .section-heading {
@@ -257,7 +262,7 @@ p {
 
 .project-name {
   font-size: 1.5em; /* 16px */
-  margin: 0.25em 0em;
+  margin: 0 16px;
 }
 
 .project-preview {
@@ -265,25 +270,25 @@ p {
   height: 100px;
   border: 1px solid rgba(66, 62, 55, 0.5);
   border-radius: 15px; */
-  margin: 0.5em;
+  margin: 16px;
   overflow: hidden;
 }
 
 .project-preview img {
-  max-width: 250px;
+  max-width: 220px;
   max-height: 180px;
   border: 1px solid rgba(66, 62, 55, 0.5);
   border-radius: 20px;
-  margin: 0.5em;
+  margin: 0px;
 }
 
 .project-description {
-  margin: 0.15em;
+  margin: 16px;
 }
 
 .project-card-item i {
   font-size: 2.5em;
-  margin: 0.375em 0;
+  margin: 0 0 16px 0;
 }
 
 /* ==== FOOTER ==== */
@@ -366,12 +371,13 @@ a:active i {
 
 /* TABLET */
 
-@media screen and (min-wdith: 768px) {
+@media screen and (min-wdith: 769px) {
+  /* ====  ==== */
 }
 
 /* DESKTOP
 
-@media screen and (min-wdith: 1366px){
+@media screen and (min-width: 1025px){
 
 }
 
