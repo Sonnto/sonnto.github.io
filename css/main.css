@@ -43,8 +43,10 @@ p {
 #menu-toggle {
   display: block;
   position: relative;
-  top: 1em;
-  left: 1em;
+  /* top: 1em; */
+  /* left: 1em; */
+  padding-left: 16px;
+  padding-top: 16px;
   z-index: 1;
   -webkit-user-select: none;
   user-select: none;
@@ -65,8 +67,8 @@ p {
   width: 2em;
   height: 2em;
   position: absolute;
-  top: -7px;
-  left: -5px;
+  top: 11px;
+  left: 16px;
   cursor: pointer;
   opacity: 0; /* hides input check */
   z-index: 2; /* placed over hamburger */
@@ -115,10 +117,10 @@ p {
 
 #menu {
   position: absolute;
-  width: 100vmax;
+  width: 120px;
   margin: -100px 0 0 -20px;
-  padding: 2em;
-  padding-top: 125px;
+  padding: 16px;
+  padding-top: 100px;
   background: #423e37;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
