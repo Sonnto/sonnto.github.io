@@ -361,7 +361,18 @@ a:active i {
   color: #aba8a8;
 }
 
-/* FOR WEB
+/* ==== MEDIA QUERIES ==== */
+
+/* TABLET */
+
+@media screen and (min-wdith: 768px) {
+}
+
+/* DESKTOP
+
+@media screen and (min-wdith: 1366px){
+
+}
 
 Nav Bar
 #nav {
