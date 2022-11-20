@@ -163,7 +163,7 @@ section {
 
 /* ==== HOME ==== */
 
-#home {
+.home-container {
   text-align: center;
   margin-top: 48px;
   padding: 0;
@@ -195,10 +195,11 @@ section {
 
 /* ==== ABOUT ==== */
 
-.bio {
-  margin: 8px 16px 8px 16px;
+.about-container {
+  display: flex;
+  flex-flow: column wrap;
   text-align: center;
-  line-height: 28px;
+  gap: 8px;
 }
 
 .profile-pic {
@@ -207,6 +208,12 @@ section {
   overflow: hidden;
   border: 1px solid rgba(66, 62, 55, 0.5);
   border-radius: 40px;
+}
+
+.bio {
+  margin: 0 16px;
+  text-align: center;
+  line-height: 28px;
 }
 
 .contact-info {
@@ -225,7 +232,7 @@ section {
 
 /* ==== RESUME ==== */
 
-#resume {
+.resume-container {
   text-align: center;
 }
 
@@ -236,7 +243,7 @@ section {
   flex-flow: column wrap;
   text-align: center;
   gap: 24px;
-  margin: 24px;
+  margin: 0 24px 24px 24px;
 }
 
 #projects .section-heading {
