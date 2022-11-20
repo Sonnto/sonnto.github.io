@@ -175,14 +175,14 @@ section {
   overflow: hidden;
 }
 
-.my-title {
+.main-title {
   font-size: 48px;
   margin: 4px 16px 4px 16px;
 }
 
 .subtext {
   margin: 0 16px, 0, 16px;
-  font-size: 28px;
+  font-size: 24px;
   line-height: 8px;
 }
 
@@ -295,7 +295,7 @@ section {
   padding: 16px;
 }
 
-/* ==== LINKS ==== */
+/* ==== NON-MENU LINKS ==== */
 
 /* General Links */
 a {
@@ -317,29 +317,6 @@ a:hover {
 a:active {
   color: #3581b8;
 }
-
-/* Nav Links */
-/* #nav a {
-  display: inline;
-  text-align: center;
-  text-decoration: none;
-}
-
-#nav a:link {
-  color: #423e37;
-}
-
-#nav a:visited {
-  color: #3581b8;
-}
-
-#nav a:hover {
-  color: #3581b8;
-}
-
-#nav a:active {
-  color: #3581b8;
-} */
 
 /* Clickable Icon Links */
 a i {
@@ -397,6 +374,29 @@ Nav Bar
 #nav li {
   display: inline;
   font-size: 1.875em; 30px
+}
+
+/* Nav Links */
+/* #nav a {
+  display: inline;
+  text-align: center;
+  text-decoration: none;
+}
+
+#nav a:link {
+  color: #423e37;
+}
+
+#nav a:visited {
+  color: #3581b8;
+}
+
+#nav a:hover {
+  color: #3581b8;
+}
+
+#nav a:active {
+  color: #3581b8;
 }
 
 .projects-container {
