@@ -1,11 +1,16 @@
-@import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500&family=Quattrocento+Sans&display=swap");
+/* IMPORTED FONTS
+* + Quattrocento Sans (Regular 400)
+* + Mulish (XLite 200, Lite 300, Regular
+*   400, Bold 500)
+*/
 
 /* COLOUR PALETTE: https://coolors.co/423e37-777470-888582-aba8a8-cdcbcd-fbf9ff-cfdcee-a3bedc-77a0cb-4a82b9 */
 
 html {
   box-sizing: border-box;
   background-color: #fbf9ff;
-  font-family: Karla, sans-serif;
+  font-family: "Quattrocento Sans", "Mulish", Arial, Helvetica, sans-serif;
   color: #423e37;
   margin: 0;
   padding: 0;
@@ -24,6 +29,7 @@ html {
   border-radius: 50%;
   max-width: 80%;
 }
+
 /* 
 section {
   margin: 16px 12px;
@@ -32,6 +38,7 @@ section {
 .section-heading {
   font-size: 32px;
   text-align: center;
+  text-transform: uppercase;
 }
 
 /* ==== MENU ==== */
@@ -128,6 +135,8 @@ section {
 }
 
 #menu li {
+  font-family: "Mulish";
+  font-weight: 300;
   text-align: left;
   margin: 24px 8px;
   /* padding: 8px 16px; */
@@ -177,13 +186,18 @@ section {
 
 .main-title {
   font-size: 48px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
   margin: 4px 16px 4px 16px;
 }
 
 .subtext {
+  font-family: "Mulish";
+  font-weight: 200;
   margin: 0 16px, 0, 16px;
   font-size: 24px;
   line-height: 8px;
+  text-transform: lowercase;
 }
 
 .social-icons {
@@ -211,12 +225,14 @@ section {
 }
 
 .bio {
+  font-family: "Mulish";
   margin: 0 16px;
   text-align: center;
   line-height: 28px;
 }
 
 .contact-info {
+  font-family: "Mulish";
   width: fit-content;
   margin: 0 auto;
   text-align: left;
@@ -269,6 +285,8 @@ section {
 .project-name {
   font-size: 1.5em; /* 16px */
   margin: 0 16px;
+  font-family: "Mulish";
+  font-weight: 500;
 }
 
 .project-preview img {
@@ -280,6 +298,8 @@ section {
 }
 
 .project-description {
+  font-family: "Mulish";
+  font-weight: 100;
   margin: 16px;
   line-height: 28px;
 }
@@ -295,6 +315,9 @@ section {
 
 /* ==== FOOTER ==== */
 #footer {
+  font-family: "Mulish";
+  font-weight: 200;
+  text-transform: uppercase;
   font-size: 8px;
   text-align: center;
   background-color: #423e37;
@@ -351,7 +374,7 @@ a:active i {
 /* TABLET */
 
 @media screen and (min-wdith: 769px) {
-  /* ====  ==== */
+  /* ==== HOME ==== */
 }
 
 /* DESKTOP
