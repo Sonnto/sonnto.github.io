@@ -224,10 +224,10 @@ section {
   border-radius: 40px;
 }
 
-/* .bio-text-wrapper {
+.bio-text-wrapper {
   display: flex;
   flex-flow: column wrap;
-} */
+}
 
 .bio {
   font-family: "Mulish";
@@ -242,6 +242,10 @@ section {
   margin: 0 auto;
   text-align: left;
 }
+
+/* .contact-info p {
+  margin: 0;
+} */
 
 .contact-info i {
   font-size: 28px;
@@ -284,7 +288,6 @@ section {
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
-  align-items: center;
 }
 
 .project-name {
@@ -314,8 +317,12 @@ section {
 }
 
 .project-media-icon {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 36px;
   font-size: 40px;
   margin: 0 16px 16px 16px;
+  justify-content: center;
 }
 
 /* ==== FOOTER ==== */
