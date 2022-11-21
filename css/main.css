@@ -224,6 +224,11 @@ section {
   border-radius: 40px;
 }
 
+/* .bio-text-wrapper {
+  display: flex;
+  flex-flow: column wrap;
+} */
+
 .bio {
   font-family: "Mulish";
   margin: 0 16px;
