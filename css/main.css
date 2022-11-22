@@ -508,13 +508,48 @@ a:active i {
   }
 }
 
-/* DESKTOP
+/* === DESKTOP === */
 
-@media screen and (min-width: 1025px){
+@media screen and (min-width: 1025px) {
+  /* .section-heading {
+    font-size: 40px;
+    line-height: 44px;
+    margin: 28px 0;
+  */
 
+  /* ======== HOME ======== */
+  /*
+    .emblem {
+    max-width: 340px;
+    max-height: 340px;
+  }
+
+  .main-title {
+    font-size: 64px;
+    letter-spacing: 8px;
+    margin: 8px 20px 8px 20px;
+  }
+
+  .subtext {
+    font-size: 28px;
+    line-height: 12px;
+  }
+
+  .social-icons {
+    font-size: 64px;
+    gap: 58px;
+  }
+
+  /* ======== ABOUT ======== */
+
+  /* ======== RESUME ======== */
+
+  /* === Coming Soon... === */
+
+  /* ======== PROJECTS ======== */
 }
 
-Nav Bar
+/* Nav Bar
 #nav {
   position: fixed;
   top: 0%;
