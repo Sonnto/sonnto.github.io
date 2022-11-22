@@ -266,6 +266,8 @@ section {
 
 /* ========== RESUME ========== */
 
+/* === Coming Soon... === */
+
 .resume-container {
   text-align: center;
 }
@@ -456,6 +458,12 @@ a:active i {
   .fa-mobile {
     padding: 0 5px; /* center the mobile icon under the envelope icon */
   }
+
+  /* ======== RESUME ======== */
+
+  /* === Coming Soon... === */
+
+  /* ======== PROJECTS ======== */
 }
 
 /* DESKTOP
