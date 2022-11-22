@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500&family=Quattrocento+Sans&display=swap");
+
 /* IMPORTED FONTS
 * + Quattrocento Sans (Regular 400)
 * + Mulish (XLite 200, Lite 300, Regular
@@ -43,7 +44,7 @@ section {
   margin: 28px 0;
 }
 
-/* ==== MENU ==== */
+/* ========== MENU ========= */
 
 #menu-toggle {
   display: block;
@@ -80,7 +81,7 @@ section {
   -webkit-touch-callout: none;
 }
 
-/* Hamburger Menu Design*/
+/* === Hamburger Menu Design === */
 #menu-toggle span {
   display: block;
   width: 34.2px;
@@ -103,7 +104,7 @@ section {
   transform-origin: 0% 100%;
 }
 
-/*Animating hamburger to close 'X'*/
+/* === Animating hamburger to close 'X' === */
 
 #menu-toggle input:checked ~ span {
   opacity: 1;
@@ -172,7 +173,7 @@ section {
   margin: 0em 1em;
 } */
 
-/* ==== HOME ==== */
+/* ========== HOME ========== */
 
 .home-container {
   text-align: center;
@@ -183,7 +184,6 @@ section {
 .emblem {
   max-width: 240px; /* 12.5em */
   max-height: 240px; /* 12.5em */
-  overflow: hidden;
 }
 
 .main-title {
@@ -210,7 +210,7 @@ section {
   padding-top: 12px;
 }
 
-/* ==== ABOUT ==== */
+/* ========== ABOUT ========== */
 
 .about-container {
   display: flex;
@@ -264,13 +264,13 @@ section {
   padding: 0 3.5px; /* center the mobile icon under the envelope icon */
 }
 
-/* ==== RESUME ==== */
+/* ========== RESUME ========== */
 
 .resume-container {
   text-align: center;
 }
 
-/* ==== PROJECTS ==== */
+/* ========== PROJECTS ========== */
 
 .projects-container {
   display: flex;
@@ -284,7 +284,7 @@ section {
   margin: 0;
 }
 
-/* PROJECT ITEM CARDS */
+/* === PROJECT ITEM CARDS === */
 .project-card-item {
   border: 1px black solid;
   /* flex: 1 0 0; */
@@ -339,7 +339,7 @@ section {
   padding: 0 2.5px;
 }
 
-/* ==== FOOTER ==== */
+/* ========== FOOTER ========== */
 #footer {
   font-family: "Mulish";
   font-weight: 200;
@@ -351,7 +351,7 @@ section {
   padding: 16px;
 }
 
-/* ==== NON-MENU LINKS ==== */
+/* ========== NON-MENU LINKS ========== */
 
 /* General Links */
 a {
@@ -395,12 +395,67 @@ a:active i {
   color: #aba8a8;
 }
 
-/* ==== MEDIA QUERIES ==== */
+/* ========== MEDIA QUERIES ========== */
 
-/* TABLET */
+/* === TABLET === */
 
-@media screen and (min-wdith: 769px) {
-  /* ==== HOME ==== */
+@media screen and (min-width: 769px) {
+  .section-heading {
+    font-size: 36px;
+    line-height: 44px;
+    margin: 28px 0;
+  }
+
+  /* ======== HOME ======== */
+
+  .emblem {
+    max-width: 340px;
+    max-height: 340px;
+  }
+
+  .main-title {
+    font-size: 64px;
+    letter-spacing: 8px;
+    margin: 8px 20px 8px 20px;
+  }
+
+  .subtext {
+    font-size: 28px;
+    line-height: 12px;
+  }
+
+  .social-icons {
+    font-size: 64px;
+    gap: 58px;
+  }
+
+  /* ======== ABOUT ======== */
+
+  .profile-pic {
+    width: 300px;
+    height: 300px;
+  }
+
+  .bio-text-wrapper {
+    margin: 32px;
+  }
+
+  .bio {
+    line-height: 48px;
+    font-size: 28px;
+  }
+
+  .contact-info {
+    font-size: 28px;
+  }
+
+  .contact-info i {
+    font-size: 40px;
+  }
+
+  .fa-mobile {
+    padding: 0 5px; /* center the mobile icon under the envelope icon */
+  }
 }
 
 /* DESKTOP
