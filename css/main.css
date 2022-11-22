@@ -39,7 +39,8 @@ section {
   font-size: 32px;
   text-align: center;
   text-transform: uppercase;
-  line-height: 48px;
+  line-height: 44px;
+  margin: 28px 0;
 }
 
 /* ==== MENU ==== */
@@ -180,8 +181,8 @@ section {
 }
 
 .emblem {
-  max-width: 200px; /* 12.5em */
-  max-height: 200px; /* 12.5em */
+  max-width: 240px; /* 12.5em */
+  max-height: 240px; /* 12.5em */
   overflow: hidden;
 }
 
@@ -206,7 +207,7 @@ section {
   display: flex;
   justify-content: center;
   gap: 36px;
-  padding-top: 8px;
+  padding-top: 12px;
 }
 
 /* ==== ABOUT ==== */
@@ -219,8 +220,8 @@ section {
 }
 
 .profile-pic {
-  width: 160px; /* 10em */
-  height: 160px; /* 10em */
+  width: 200px;
+  height: 200px;
   overflow: hidden;
   border: 1px solid rgba(66, 62, 55, 0.5);
   border-radius: 40px;
@@ -234,9 +235,13 @@ section {
 .bio {
   font-family: "Mulish";
   margin: 0 20px;
-  text-align: center;
+  text-align: left;
   line-height: 28px;
   font-size: 20px;
+}
+
+.bio p {
+  margin-bottom: 8px;
 }
 
 .contact-info {
@@ -256,7 +261,7 @@ section {
 }
 
 .fa-mobile {
-  padding: 3.5px; /* center the mobile icon under the envelope icon */
+  padding: 0 3.5px; /* center the mobile icon under the envelope icon */
 }
 
 /* ==== RESUME ==== */
@@ -270,7 +275,6 @@ section {
 .projects-container {
   display: flex;
   flex-flow: column wrap;
-  text-align: center;
   gap: 24px;
   margin: 0 24px 24px 24px;
 }
@@ -285,13 +289,13 @@ section {
   border: 1px black solid;
   /* flex: 1 0 0; */
   min-width: 240px;
-  min-height: 190px;
+  min-height: 240px;
   border: 0.5px solid rgba(66, 62, 55, 0.25);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 40px;
   display: flex;
   flex-flow: column wrap;
-  justify-content: center;
+  text-align: center;
 }
 
 .project-name {
@@ -315,6 +319,7 @@ section {
   margin: 16px;
   line-height: 28px;
   font-size: 20px;
+  text-align: left;
 }
 
 .project-description p {
@@ -328,6 +333,10 @@ section {
   font-size: 40px;
   margin: 0 16px 16px 16px;
   justify-content: center;
+}
+
+.fa-folder-open {
+  padding: 0 2.5px;
 }
 
 /* ==== FOOTER ==== */
