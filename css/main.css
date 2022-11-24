@@ -440,7 +440,7 @@ a:active i {
   }
 
   .bio-text-wrapper {
-    margin: 32px;
+    margin: 0 32px;
   }
 
   .bio {
@@ -493,7 +493,7 @@ a:active i {
 
   .project-description {
     margin: 32px;
-    line-height: 32px;
+    line-height: 36px;
     font-size: 20px;
   }
 
