@@ -444,20 +444,20 @@ a:active i {
   }
 
   .bio {
-    line-height: 48px;
-    font-size: 28px;
+    line-height: 36px;
+    font-size: 20px;
   }
 
   .contact-info {
-    font-size: 28px;
+    font-size: 20px;
   }
 
   .contact-info i {
-    font-size: 40px;
+    font-size: 28px;
   }
 
   .fa-mobile {
-    padding: 0 5px; /* center the mobile icon under the envelope icon */
+    padding: 0 3.5px; /* center the mobile icon under the envelope icon */
   }
 
   /* ======== RESUME ======== */
@@ -493,20 +493,20 @@ a:active i {
 
   .project-description {
     margin: 32px;
-    line-height: 44px;
-    font-size: 28px;
+    line-height: 32px;
+    font-size: 20px;
   }
 
   .project-media-icon {
     display: flex;
     flex-flow: row wrap;
     gap: 120px;
-    font-size: 48px;
+    font-size: 40px;
     margin: 0 32px 32px 32px;
   }
 
   .fa-folder-open {
-    padding: 0 3px;
+    padding: 0 2.5px;
   }
 }
 
