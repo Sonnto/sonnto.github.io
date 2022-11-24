@@ -236,8 +236,8 @@ section {
   font-family: "Mulish";
   margin: 0 24px;
   text-align: center;
-  line-height: 36px;
-  font-size: 24px;
+  line-height: 32px;
+  font-size: 16px;
 }
 
 .bio p {
@@ -249,7 +249,7 @@ section {
   width: fit-content;
   margin: 0 auto;
   text-align: left;
-  font-size: 24px;
+  font-size: 16px;
 }
 
 /* .contact-info p {
@@ -257,11 +257,11 @@ section {
 } */
 
 .contact-info i {
-  font-size: 32px;
+  font-size: 24px;
 }
 
 .fa-mobile {
-  padding: 0 4px; /* center the mobile icon under the envelope icon */
+  padding: 0 3px; /* center the mobile icon under the envelope icon */
 }
 
 /* ========== RESUME ========== */
@@ -319,8 +319,8 @@ section {
   font-family: "Mulish";
   font-weight: 100;
   margin: 16px;
-  line-height: 28px;
-  font-size: 20px;
+  line-height: 24px;
+  font-size: 16px;
   text-align: center;
 }
 
