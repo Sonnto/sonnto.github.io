@@ -31,11 +31,6 @@ html {
   max-width: 80%;
 }
 
-/* 
-section {
-  margin: 16px 12px;
-} */
-
 .section-heading {
   font-size: 32px;
   text-align: center;
@@ -65,8 +60,6 @@ section {
 #menu-toggle {
   display: block;
   position: relative;
-  /* top: 1em; */
-  /* left: 1em; */
   padding-left: 24px;
   padding-top: 24px;
   z-index: 1;
@@ -172,37 +165,15 @@ section {
   transform: none;
 }
 
-/* #nav {
-  position: fixed;
-  top: 0%;
-  width: 100%;
-  background-color: #cdcbcd;
-  list-style: none;
-  margin: 0;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  padding: 0;
-  text-align: center;
-}
-
-#nav ul {
-  padding: 0;
-}
-
-#nav li {
-  display: inline;
-  font-size: 1.875em; /* 30px
-  margin: 0em 1em;
-} */
-
 /* ========== HOME ========== */
 
 .home-container {
   text-align: center;
-  margin-top: 48px;
   padding: 0;
 }
 
 .emblem {
+  margin: 48px 0 0 0;
   max-width: 240px; /* 12.5em */
   max-height: 240px; /* 12.5em */
 }
@@ -250,11 +221,6 @@ section {
   border: 1px solid rgba(66, 62, 55, 0.5);
   border-radius: 40px;
 }
-
-/* .bio-text-wrapper {
-  display: flex;
-  flex-flow: column wrap;
-} */
 
 .bio {
   font-family: "Mulish";
@@ -629,6 +595,7 @@ a:active i {
 
   /* ======== FOOTER ======== */
   #footer {
+    font-size: 12px;
     margin-top: 32px;
   }
 }
