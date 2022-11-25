@@ -622,8 +622,6 @@ a:active i {
   .projects-content-container {
     display: flex;
     flex-flow: row;
-    gap: 24px;
-    margin: 0 24px 24px 24px;
   }
 
   /* === PROJECT ITEM CARDS === */
