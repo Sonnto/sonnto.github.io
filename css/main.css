@@ -216,7 +216,6 @@ section {
   display: flex;
   flex-flow: column wrap;
   text-align: center;
-  gap: 8px;
 }
 
 .profile-pic {
@@ -227,21 +226,17 @@ section {
   border-radius: 40px;
 }
 
-.bio-text-wrapper {
+/* .bio-text-wrapper {
   display: flex;
   flex-flow: column wrap;
-}
+} */
 
 .bio {
   font-family: "Mulish";
   margin: 0 24px;
-  text-align: center;
+  text-align: justify;
   line-height: 32px;
   font-size: 16px;
-}
-
-.bio p {
-  margin-bottom: 8px;
 }
 
 .contact-info {
@@ -321,7 +316,7 @@ section {
   margin: 16px;
   line-height: 24px;
   font-size: 16px;
-  text-align: center;
+  text-align: justify;
 }
 
 .project-description p {
@@ -406,6 +401,7 @@ a:active i {
     font-size: 40px;
     line-height: 44px;
     margin: 28px 0;
+    font-family: "Mulish";
   }
 
   /* ======== HOME ======== */
@@ -543,6 +539,50 @@ a:active i {
   }
 
   /* ======== ABOUT ======== */
+
+  .about-container {
+    flex-flow: row;
+    align-items: center;
+  }
+  /* 
+  .about-container:nth-child(0) {
+    order: 1;
+  }
+
+  .about-container:nth-child(2) {
+    order: 0;
+  }
+
+  .about-container:nth-child(1) {
+    order: 2;
+  } */
+
+  .profile-pic-item {
+    margin: 0 0 0 56px;
+  }
+
+  .profile-pic {
+    width: 400px;
+    height: 400px;
+    border-radius: 80px;
+  }
+
+  .bio {
+    line-height: 36px;
+    font-size: 20px;
+  }
+
+  .contact-info {
+    font-size: 20px;
+  }
+
+  .contact-info i {
+    font-size: 28px;
+  }
+
+  .fa-mobile {
+    padding: 0 3.5px; /* center the mobile icon under the envelope icon */
+  }
 
   /* ======== RESUME ======== */
 
