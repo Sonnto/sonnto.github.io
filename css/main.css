@@ -319,11 +319,13 @@ section {
   font-weight: 500;
 }
 
+.project-preview {
+  margin: 0;
+}
+
 .project-preview img {
-  /* max-width: 240px;
-  max-height: 190px; */
-  height: 80%;
-  width: 80%;
+  height: 90%;
+  width: 90%;
   border: 1px solid rgba(66, 62, 55, 0.5);
   border-radius: 20px;
   margin: 16px;
