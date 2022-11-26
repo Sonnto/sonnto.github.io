@@ -212,7 +212,7 @@ html {
   text-align: center;
 }
 
-.desktop-sec-heading {
+.desktop-sect-heading {
   display: none;
 }
 
@@ -520,11 +520,11 @@ a:active i {
     align-items: center;
   }
 
-  .mobile-sec-heading {
+  .mobile-sect-heading {
     display: none;
   }
 
-  .desktop-sec-heading {
+  .desktop-sect-heading {
     display: block;
   }
 
