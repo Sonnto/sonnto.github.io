@@ -37,7 +37,6 @@ html {
   text-align: center;
   text-transform: uppercase;
   line-height: 44px;
-  margin: 28px 0;
 }
 
 /* ========== MENU ========= */
@@ -174,6 +173,15 @@ html {
   padding: 0;
 }
 
+/* .emblem-overlay {
+  display: block;
+  position: absolute;
+  top: 47px;
+  left: 66px;
+  padding: 120px;
+  border: 1px solid red;
+} */
+
 .emblem {
   margin: 48px 0 0 0;
   max-width: 240px; /* 12.5em */
@@ -210,6 +218,8 @@ html {
   display: flex;
   flex-flow: column wrap;
   text-align: center;
+  margin: 0 32px;
+  gap: 32px;
 }
 
 .desktop-sect-heading {
@@ -226,7 +236,7 @@ html {
 
 .bio {
   font-family: "Mulish";
-  margin: 0 24px;
+  /* margin: 0 24px; */
   text-align: justify;
   line-height: 32px;
   font-size: 16px;
@@ -273,7 +283,7 @@ html {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
   border-radius: 40px;
   text-align: center;
-  width: 100%;
+  width: fit-content;
 }
 
 .project-name {
@@ -297,7 +307,7 @@ html {
 .project-description {
   font-family: "Mulish";
   font-weight: 100;
-  margin: 16px;
+  margin: 16px 24px;
   line-height: 24px;
   font-size: 16px;
   text-align: justify;
@@ -384,7 +394,6 @@ a:active i {
   .section-heading {
     font-size: 44px;
     line-height: 48px;
-    margin: 32px 0;
   }
 
   /* ======== HOME ======== */
@@ -418,13 +427,10 @@ a:active i {
     border-radius: 80px;
   }
 
-  .bio-text-wrapper {
-    margin: 0 32px;
-  }
-
   .bio {
     line-height: 36px;
     font-size: 20px;
+    /* margin: 0 32px; */
   }
 
   .contact-info {
@@ -467,7 +473,7 @@ a:active i {
   }
 
   .project-description {
-    margin: 40px;
+    margin: 28px 40px;
     line-height: 36px;
     font-size: 20px;
   }
@@ -490,7 +496,7 @@ a:active i {
   #about,
   #resume,
   #projects {
-    max-width: 1200px;
+    max-width: 1440px;
     margin: auto;
   }
 
@@ -507,10 +513,6 @@ a:active i {
     font-size: 28px;
   }
 
-  #menu-tab {
-    display: none;
-  }
-
   /* ======== HOME ======== */
 
   /* ======== ABOUT ======== */
@@ -518,6 +520,8 @@ a:active i {
   .about-content-container {
     flex-flow: row;
     align-items: center;
+    margin: 0 58px;
+    gap: 58px;
   }
 
   .mobile-sect-heading {
@@ -528,9 +532,9 @@ a:active i {
     display: block;
   }
 
-  .profile-pic-item {
+  /* .profile-pic-item {
     margin: 0 0 0 56px;
-  }
+  } */
 
   .profile-pic {
     width: 400px;
@@ -563,7 +567,7 @@ a:active i {
 
   .project-media-icon {
     font-size: 40px;
-    margin: 0 32px 32px 32px;
+    margin: 0 36px 36px 36px;
   }
 
   .fa-arrow-up-right-from-square {
