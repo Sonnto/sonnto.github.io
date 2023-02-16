@@ -482,7 +482,7 @@ a:active i {
   /* ==================== TABLET 769px RESUME ==================== */
 
   .resume-container {
-    margin: 32px 58px;
+    margin: 0 58px;
   }
 
   .experience-container {
@@ -552,7 +552,7 @@ a:active i {
   #resume,
   #projects {
     max-width: 1440px;
-    margin: auto;
+    /* margin: auto; */
   }
 
   /* ==================== DESKTOP 1025px MENU ==================== */
@@ -607,7 +607,9 @@ a:active i {
 
   /* ==================== DESKTOP 1025px RESUME ==================== */
 
-  /* === Coming Soon... === */
+  .resume-container {
+    margin: 0 58px;
+  }
 
   /* ==================== DESKTOP 1025px PROJECTS ==================== */
 
